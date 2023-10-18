@@ -14,9 +14,9 @@ class TStack {
  public:
   TStack();
   ~TStack();
-  TStack(const TStack &other);
-  TStack& operator=(const TStack &other);
-  void push(const data_t &data);
+  TStack(const TStack& other);
+  TStack& operator=(const TStack& other);
+  void push(const data_t& data);
   void pop();
   data_t peek() const;
   bool isEmpty() const;

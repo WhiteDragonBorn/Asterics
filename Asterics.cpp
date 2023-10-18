@@ -18,10 +18,10 @@ int main() {
 
     stack_in.push(temp);
   }
-  //stack_in.print();
   //stack_out.print();
 
   stack_out = transform_stack(stack_in, ast_cnt);
   stack_out.print();
+
   fin.close();
 }
