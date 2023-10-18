@@ -22,6 +22,8 @@ int main() {
 
   stack_out = transform_stack(stack_in, ast_cnt);
   stack_out.print();
+  //std::cout << "123";
+  reversePrintStack(stack_out);
 
   fin.close();
 }

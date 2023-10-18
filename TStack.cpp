@@ -48,7 +48,7 @@ void TStack::push(const data_t& data) {
 
 void TStack::pop() {
   if (isEmpty()) {
-    std::cout << "Stack is empty" << std::endl;
+    std::cout << "Pop is empty" << std::endl;
     return;
   }
   Node* node = top;
@@ -77,6 +77,10 @@ void TStack::print() const {
   }
   std::cout << std::endl;
 }
+
+//void TStack::printReverse() const {
+//  if()
+//}
 
 void TStack::clear() {
   while (!isEmpty()) {
