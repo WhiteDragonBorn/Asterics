@@ -8,7 +8,7 @@ class TStack {
     data_t data;
     Node* next;
   };
-
+  
   Node* top;
 
  public:
