@@ -48,7 +48,7 @@ void TStack::push(const data_t& data) {
 
 void TStack::pop() {
   if (isEmpty()) {
-    std::cout << "Pop is empty" << std::endl;
+    //std::cout << "Pop is empty" << std::endl;
     return;
   }
   Node* node = top;
@@ -59,7 +59,7 @@ void TStack::pop() {
 
 data_t TStack::peek() const {
   if (isEmpty()) {
-    std::cout << "Peek is empty" << std::endl;
+    //std::cout << "Peek is empty" << std::endl;
     return '@';
   }
   return top->data;
