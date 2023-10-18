@@ -8,7 +8,7 @@ class TStack {
     data_t data;
     Node* next;
   };
-  
+
   Node* top;
 
  public:
@@ -21,6 +21,5 @@ class TStack {
   data_t peek() const;
   bool isEmpty() const;
   void print() const;
-  //void printReverse() const;
   void clear();
 };

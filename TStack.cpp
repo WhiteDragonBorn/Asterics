@@ -78,10 +78,6 @@ void TStack::print() const {
   std::cout << std::endl;
 }
 
-//void TStack::printReverse() const {
-//  if()
-//}
-
 void TStack::clear() {
   while (!isEmpty()) {
     pop();

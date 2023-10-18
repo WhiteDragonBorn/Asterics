@@ -43,11 +43,13 @@ void oddTransform(TStack& stack, TStack& stack_out, int asterics_count) {
       if (ind_word == 0) {
         stack_out.push(temp);
         stack.pop();
+        temp = stack.peek();
       } else {
         words_deleted++;
         stack_out.push(temp);
         stack.pop();
         ind_word = 0;
+        temp = stack.peek();
       }
     } else {
       stack.pop();
